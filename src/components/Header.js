@@ -11,10 +11,10 @@ const Header = (props)  => {
                 <h1>Hola</h1>
             </Link>
             <nav>
-                <Link className="links" to="/projects">Projects</Link>
+                <Link className="links">Projects</Link>
                 <Link className="links"  to="/" onClick={handleClick}>GitHub</Link>
                 <Link className="links">Resume</Link>
-                <Link className="links" to="/contact">Contact</Link>
+                <Link className="links">Contact</Link>
         
             </nav>
         </header>
