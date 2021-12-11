@@ -8,10 +8,12 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Project';
 
+
+
 function App() {
   return (
     <div className="App">
-     
+      
      <Header/>
       <Switch>
         <Route exact path="/">
@@ -37,3 +39,5 @@ export default App;
 
 
 
+     
+     

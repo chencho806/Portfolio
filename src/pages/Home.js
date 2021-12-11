@@ -1,6 +1,8 @@
 const Home = (props) => {
     return (
-        <h1>Home</h1>
+        <div className="image">
+            {/* <img src="/me.jpeg" id="img" class="img-fluid" alt="me" /> */}
+        </div>
     )
 }
 
