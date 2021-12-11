@@ -13,7 +13,7 @@ const Header = (props)  => {
             <nav>
                 <Link className="links">Projects</Link>
                 <Link className="links"  to="/" onClick={handleClick}>GitHub</Link>
-                <Link className="links">Resume</Link>
+                <Link className="links" to="/resume">Resume</Link>
                 <Link className="links" to="/contact">Contact</Link>
         
             </nav>
