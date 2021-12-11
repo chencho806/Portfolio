@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Projects from './pages/Project';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/resume">
           <Resume/>
+        </Route>
+        <Route path="/projects">
+          <Projects/>
         </Route>
       </Switch>
         
