@@ -1,71 +1,76 @@
+import { Link } from 'react-router-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {  Card, Button, Container, Row } from 'react-bootstrap';
+
+import {  Card, Container, Row } from 'react-bootstrap';
 
 const Projects = (props) => {
     return (
         
         <Container className="grid" >
             <Row lg={4} className='justify-content-center'>
-            <Card style={{ width: '18rem', height: '24rem'}} className="box shadow-5" >
+            <Card style={{ width: '18rem', height: '28rem'}} className="box" >
                 <Container className="img-container">
-                <Card.Img variant="top" src="/BoozeHound.jpg" className="image"/>
+                <Card.Img variant="top" src="/BoozeHound2.jpg" className="image"/>
                 </ Container>
 
                 <Card.Body>
 
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>BoozeHound</Card.Title>
                         <Card.Text>
-                        
+                        Random Cocktail Generator
                         </Card.Text>
 
-                        <Button variant="primary">Go somewhere</Button>
+                        <Link className="site-links" to="https://boozehound.netlify.app/">View Site</Link>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem', height: '24rem' }} className="box">
-                <Container className="img-container">
-                <Card.Img variant="top" src="/me.jpeg" className="image"/>
+            <Card style={{ width: '18rem', height: '28rem' }} className="box">
+                <Container className="img-container" >
+                <Card.Img variant="top" src="/RatMilk.jpg" className="image"/>
                 </Container>
                     
                 <Card.Body>
 
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Rattlesnake Milk Website</Card.Title>
                         <Card.Text>
-                        
+                        Band Website
                         </Card.Text>
 
-                        <Button variant="primary">Go somewhere</Button>
+                        <Link className="site-links" to="https://rattlesnakemilkadmin.netlify.app/">View Site</Link>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem', height: '24rem' }} className="box">
+            <Card style={{ width: '18rem', height: '28rem' }} className="box">
                 <Container className="img-container">
-                <Card.Img variant="top" src="/me.jpeg" className="image"/>
+                <Card.Img variant="top" src="/RAAM.jpg" className="image"/>
                 </Container>
 
                 <Card.Body>
 
-                    <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                        
-                        
-                        </Card.Text>
+                    
 
-                        <Button variant="primary">Go somewhere</Button>
+                    <Card.Title>RAAM</Card.Title>
+                        <Card.Text className="">
+                        Food Pantry App 
+                        </Card.Text>
+                        
+
+                        <Link className="site-links" to="https://radiant-chamber-29667.herokuapp.com/">View Site</Link>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem', height: '24rem' }} className="box">
+            <Card style={{ width: '18rem', height: '28rem' }} className="box">
                 <Container className="img-container">
-                <Card.Img variant="top" src="/me.jpeg" className="image"/>
+                <Card.Img variant="top" src="MethodLeather.jpg" className="image"/>
                 </Container>
 
                 <Card.Body>
 
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Method Leather</Card.Title>
                         <Card.Text>
-                        
+                        Website for Method Leather
                         </Card.Text>
 
-                        <Button variant="primary">Go somewhere</Button>
+                        <Link className="site-links" to="https://protected-eyrie-89367.herokuapp.com/home">View Site</Link>
                 </Card.Body>
             </Card>
             </Row>
