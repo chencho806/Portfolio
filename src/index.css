@@ -32,14 +32,33 @@
 }
 
 .img-container {
-    height: 200px;
-    width: 75%;
+    display: flex;
+    height: auto;
+    max-height: 250px;
+    width: auto;
+    max-width: 250px;
+
     margin-top: 2rem;
+    justify-content: center;
     
 }
 
 .image {
     border-radius: 5px;
-    /* box-shadow:  -9px 9px 10px #afaeaf,
-    9px -9px 10px #ffffff; */
+    height: auto;
+    max-height: 250px;
+    width: auto;
+    max-width: 250px;
+}
+
+.links {
+    
+    color: black;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+
+    
+    
 }
