@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {  Card, Container, Row } from 'react-bootstrap';
 
 const Projects = (props) => {
+   
+    
     return (
         
         <Container className="grid" >
@@ -19,8 +21,8 @@ const Projects = (props) => {
                         <Card.Text>
                         Random Cocktail Generator
                         </Card.Text>
-                        <Link className="site-links" to="https://boozehound.netlify.app/">View Site</Link>
-                        <Link className="git-links" to="https://github.com/chencho806/cocktail-recipe-finder">GitHub</Link>
+                        <Link className="site-links" to={{ pathname: "https://boozehound.netlify.app/" }} target="_blank">View Site</Link>
+                        <Link className="git-links" to={{ pathname: "https://github.com/chencho806/cocktail-recipe-finder" }} target="_blank">GitHub</Link>
                 </Card.Body>
             </Card>
 
@@ -33,8 +35,8 @@ const Projects = (props) => {
                         <Card.Text>
                         Band Website
                         </Card.Text>
-                        <Link className="site-links" to="https://rattlesnakemilkadmin.netlify.app/">View Site</Link>
-                        <Link className="git-links" to="https://github.com/chencho806/rat-milk-frontend">GitHub</Link>
+                        <Link className="site-links" to={{ pathname: "https://rattlesnakemilkadmin.netlify.app/" }} target="_blank">View Site</Link>
+                        <Link className="git-links" to={{ pathname: "https://github.com/chencho806/rat-milk-frontend" }} target="_blank">GitHub</Link>
                 </Card.Body>
             </Card>
 
@@ -47,8 +49,8 @@ const Projects = (props) => {
                         <Card.Text className="">
                         Food Pantry App 
                         </Card.Text>
-                        <Link className="site-links" to="https://radiant-chamber-29667.herokuapp.com/">View Site</Link>
-                        <Link className="git-links" to="https://github.com/chencho806/raam">GitHub</Link>
+                        <Link className="site-links" to={{ pathname: "https://radiant-chamber-29667.herokuapp.com/" }}target="_blank">View Site</Link>
+                        <Link className="git-links" to={{ pathname: "https://github.com/chencho806/raam" }} target="_blank">GitHub</Link>
                 </Card.Body>
             </Card>
                         
@@ -61,8 +63,8 @@ const Projects = (props) => {
                         <Card.Text>
                         Website for Method Leather
                         </Card.Text>
-                        <Link className="site-links" to="https://protected-eyrie-89367.herokuapp.com/home">View Site</Link>
-                        <Link className="git-links" to="https://github.com/chencho806/method-leather-express-app">GitHub</Link>
+                        <Link className="site-links" to={{ pathname: "https://protected-eyrie-89367.herokuapp.com/home" }} target="_blank">View Site</Link>
+                        <Link className="git-links" to={{ pathname: "https://github.com/chencho806/method-leather-express-app" }} target="_blank">GitHub</Link>
                 </Card.Body>
             </Card>
             </Row>
