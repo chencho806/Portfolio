@@ -1,21 +1,16 @@
 
-#img {
+.img {
     border-radius: 50%;
+    box-shadow:  -9px 9px 10px #afaeaf,
+             9px -9px 10px #ffffff;
     /* height: 20rem; */
    
 }
 
-
-#navbar {
-    
-    
-}
-
-
 .box {
     height: 100%;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     background: #fdfcfd;
     box-shadow:  -9px 9px 10px #afaeaf,
              9px -9px 10px #ffffff;
@@ -57,15 +52,53 @@
     position: absolute;
     left: 20px;
     bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.git-links{
+.git-links {
     color: black;
     position: absolute;
     right: 20px;
     bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-links {
+    color: black;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 }
 
 
-    
-    
+.burger {
+    margin-right: 1rem;
+}
+
+.brand {
+    margin-left: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+#about {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* .resume {
+    justify-content: center;
+} */
+
+/* .container{
+    margin-top: 4rem;
+} */
