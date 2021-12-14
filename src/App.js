@@ -6,7 +6,8 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Projects from './pages/Project';
+import Projects from './pages/Projects';
+import Footer from './components/Footer';
 
 
 
@@ -14,21 +15,22 @@ function App() {
   return (
     <div className="App">
       
-     <Header/>
+     <Header />
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
         <Route path="/contact">
-          <Contact/>
+          <Contact />
         </Route>
         <Route path="/resume">
-          <Resume/>
+          <Resume />
         </Route>
         <Route path="/projects">
-          <Projects/>
+          <Projects />
         </Route>
       </Switch>
+      <Footer />
         
       
     </div>

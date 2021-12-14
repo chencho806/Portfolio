@@ -3,9 +3,9 @@
     border-radius: 50%;
     box-shadow:  -9px 9px 10px #afaeaf,
              9px -9px 10px #ffffff;
-    /* height: 20rem; */
-   
 }
+
+   
 
 .box {
     height: 100%;
@@ -78,7 +78,7 @@
 .brand {
     margin-left: 1rem;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .resume-container {
@@ -95,10 +95,24 @@
 
 
 
-/* .resume {
-    justify-content: center;
-} */
+body {
+    min-height: 100vh;
+    
+}
 
-/* .container{
-    margin-top: 4rem;
-} */
+#name {
+    color: black;
+}
+
+
+li {
+    list-style-type: none;
+    
+}
+
+
+
+#skills {
+    text-decoration: underline;
+    font-weight: bold;
+}
