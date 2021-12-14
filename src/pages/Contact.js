@@ -1,6 +1,26 @@
 const Contact = (props) => {
     return (
-        <h1>Contact Page</h1>
+        <body>
+            <div id="about">
+
+            <div>
+                <h4>THANK YOU FOR LOOKING</h4>
+            </div>
+
+            <div>
+                Please feel free to contact me with any questions or concerns.
+                I'd love to work with you!
+            </div>
+            <div>
+
+            <a 
+            className="fw-bold text-dark"
+            href="mailto:coreyalvarez1989@gmail.com">coreyalvarez1989@gmail.com</a>
+            
+            </div>
+            </div>
+
+        </body>
     );
 };
 
