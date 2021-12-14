@@ -5,25 +5,20 @@ import { Nav, Navbar } from "react-bootstrap";
 import { useState } from 'react';
 
 const Header = (props)  => {
-    const handleClick = () => {
-        window.open("https://github.com/chencho806")
-        
-    };
     
     const [expanded, setExpanded] = useState(false);
 
     return  (
-        <Navbar  expanded={expanded} id="navbar"  expand="lg" bg="light">
-      <Navbar.Brand href="/">
-        Corey Alvarez
+        <Navbar  className="shadow-sm p-3 mb-5 bg-white rounded" expanded={expanded} id="navbar" expand="lg" bg="white">
+      <Navbar.Brand className="brand">
+        <Link className="text-decoration-none" id="name" to="/" onClick={() => setExpanded(false)}>COREY ALVAREZ</Link>
       </Navbar.Brand>
-      <Navbar.Toggle  aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
-      <Navbar.Collapse id="responsive-navbar-nav">
+      <Navbar.Toggle  className="burger" aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} size="sm"/>
+      <Navbar.Collapse  id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Link className="text-decoration-none" to="/projects" onClick={() => setExpanded(false)}>Projects</Link>
-          <Link className="text-decoration-none" to="/resume" onClick={() => setExpanded(false)}>Resume</Link>
-          <Link className="text-decoration-none" to="/"  onClick={handleClick}>GitHub</Link>
-          <Link className="text-decoration-none" to="/contact" onClick={() => setExpanded(false)}>Contact</Link>
+          <Link className="text-decoration-none" id="nav-links" to="/projects" onClick={() => setExpanded(false)}>Projects</Link>
+          <Link className="text-decoration-none" id="nav-links" to="/resume" onClick={() => setExpanded(false)}>Resume</Link>
+          <Link className="text-decoration-none" id="nav-links" to="/contact" onClick={() => setExpanded(false)}>Contact</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
