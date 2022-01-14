@@ -11,7 +11,7 @@ const Resume = (props) => {
                 </div>
 
                 
-                <img src="./Resume.png" alt="" className="shadow p-3 mb-5 bg-white rounded img-fluid max-width: 100% height: auto" />
+                <img src="./Corey-C-Alvarez-GA.png" alt="" className="shadow p-3 mb-5 bg-white rounded img-fluid max-width: 100% height: auto" />
             </div>
         </body>
     );
