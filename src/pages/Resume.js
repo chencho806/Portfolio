@@ -5,7 +5,7 @@ const Resume = (props) => {
         <body>
             <div className="mb-5">
                 <div>
-                <a href="https://github.com/chencho806/CoreyCAlvarez-Resume/blob/7e874a16c0b7ead20cddfef8081fd80f40b8fad9/Corey%20C.%20_Alvarez_Resume.docx%20(3).pdf" className="link-dark">
+                <a href="https://github.com/chencho806/CoreyCAlvarez-Resume/raw/main/CoreyC._Alvarez_Resume.docx(3).pdf" className="link-dark">
                 <h4 className="mt-5"><BsDownload /></h4>
                 </a>
                 </div>
