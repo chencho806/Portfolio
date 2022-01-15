@@ -15,7 +15,7 @@ const Contact = (props) => {
 
             <a 
             className="fw-bold text-dark"
-            href="mailto:coreyalvarez1989@gmail.com">coreyalvarez1989@gmail.com</a>
+            href="mailto:coreyalvarez1989@gmail.com">coreyc.alvarez@gmail.com</a>
             
             </div>
             </div>

@@ -6,7 +6,7 @@ const Resume = (props) => {
             <div className="mb-5">
                 <div>
                 <a href="https://github.com/chencho806/Corey-C-Alvarez-GA/raw/main/Corey%20C.%20_Alvarez_Resume.docx%20(3).pdf" className="link-dark">
-                <h4 className="mt-5"><BsDownload /></h4>
+                <h4 className="mt-5"> <BsDownload /></h4>
                 </a>
                 </div>
 

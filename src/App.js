@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
+import Layout from './components/Layout';
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       
      <Header />
+     <Layout>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -30,6 +32,7 @@ function App() {
           <Projects />
         </Route>
       </Switch>
+     </Layout>
       <Footer />
         
       
@@ -38,6 +41,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
