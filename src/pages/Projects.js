@@ -9,7 +9,7 @@ const Projects = (props) => {
    
     
     return (
-        <body>
+        
             
             <Container className="grid mb-5" >
                 <Row lg={4} className='justify-content-center'>
@@ -70,7 +70,7 @@ const Projects = (props) => {
                 </Card>
                 </Row>
             </Container>
-        </body>
+        
         
 
         
