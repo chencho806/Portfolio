@@ -13,7 +13,7 @@ const Footer = (props) => {
                 </section>
              </div>
             <div className="text-center p-3 text-dark">
-                © 2021 Copyright Corey Alvarez 
+                © 2022 Copyright Corey Alvarez 
             </div>
         </footer>
     );
