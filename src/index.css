@@ -1,6 +1,5 @@
 
 .img {
-    border-radius: 50%;
     box-shadow:  -9px 9px 10px #afaeaf,
              9px -9px 10px #ffffff;
 }
@@ -105,14 +104,5 @@ body {
 }
 
 
-li {
-    list-style-type: none;
-    
-}
 
 
-
-#skills {
-    text-decoration: underline;
-    font-weight: bold;
-}
