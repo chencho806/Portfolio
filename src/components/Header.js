@@ -9,7 +9,7 @@ const Header = (props)  => {
     const [expanded, setExpanded] = useState(false);
 
     return  (
-        <Navbar  className="shadow-sm p-3 mb-5 bg-white rounded" expanded={expanded} id="navbar" expand="sm" bg="white" sticky="top">
+        <Navbar  className="shadow-sm p-3 mb-5 bg-white rounded" expanded={expanded} id="navbar" expand="lg" bg="white" sticky="top">
       <Navbar.Brand className="brand">
         <Link className="text-decoration-none" id="name" to="/" onClick={() => setExpanded(false)}>COREY ALVAREZ</Link>
       </Navbar.Brand>
