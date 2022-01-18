@@ -12,7 +12,7 @@ const Footer = (props) => {
                     <Link className="btn btn-floating m-1" id="icons" to={{ pathname: "https://www.linkedin.com/in/corey-alvarez-276678214/" }} target="_blank"><AiFillLinkedin size="50px"/></Link>
                 </section>
              </div>
-            <div className="text-center p-3 text-dark">
+            <div className="text-center p-3 text-dark p">
                 © 2022 Copyright Corey Alvarez 
             </div>
         </footer>

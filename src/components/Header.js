@@ -13,7 +13,7 @@ const Header = (props)  => {
       <Navbar.Brand className="brand">
         <Link className="text-decoration-none" id="name" to="/" onClick={() => setExpanded(false)}>COREY ALVAREZ</Link>
       </Navbar.Brand>
-      <Navbar.Toggle  className="burger" aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} size="sm"/>
+      <Navbar.Toggle  className="burger border-0" aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} size="sm"/>
       <Navbar.Collapse  id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Link className="text-decoration-none" id="nav-links" to="/projects" onClick={() => setExpanded(false)}>Projects</Link>
