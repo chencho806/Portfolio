@@ -5,13 +5,13 @@ const Resume = (props) => {
         <body>
             <div className="mb-5">
                 <div>
-                <a href="https://github.com/chencho806/Corey-C-Alvarez-GA/raw/main/Corey%20C.%20_Alvarez_Resume.docx%20(3).pdf" className="link-dark">
+                <a href="https://github.com/chencho806/Resume-Update/raw/main/CoreyC.AlvarezResume.docx%20(2).pdf" className="link-dark">
                 <h4 className="mt-5"> <BsDownload /></h4>
                 </a>
                 </div>
 
                 
-                <img src="./Resume.png" alt="" className="shadow p-3 mb-5 bg-white rounded img-fluid max-width: 100% height: auto" />
+                <img src="./PortfolioResume.png" alt="" className="shadow p-3 mb-5 bg-white rounded img-fluid max-width: 100% height: auto" />
             </div>
         </body>
     );
